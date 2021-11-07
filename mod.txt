@@ -1,0 +1,25 @@
+Name = "chompskys mod"
+ID = "Chompsky.Chompskys_mod"
+Version = 0.5
+CompatibleGameVersions = ["0.15.14a"]
+ModifiesMultiplayer = True
+Author = Chompsky
+Description = "this is chompskys mod. i hope this works\n"\
+						"my mod\n\n"\
+						"thank you."
+StringsFolder = "Strings"
+
+Actions
+[
+	{
+		Action = AddMany
+		AddTo = <ships/terran/terran.txt>/Terran/Parts
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		ManyToAdd
+		[
+			&<Op Laser Beam/ion_beam_emitter.txt>/Part
+			&<ion_beam_prism/ion_beam_prism.txt>/Part
+		]
+	}
+]

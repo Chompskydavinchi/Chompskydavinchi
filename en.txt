@@ -1,0 +1,10 @@
+Parts
+{
+	OPIonBeamEmitter = "Op Ion Emitter"
+	OPIonBeamEmitterIcon = "Op Ion Emitter"
+	OPIonBeamEmitterDesc = "DEATH"
+
+	IonBeamPrismOP = "OP Prism"
+	IonBeamPrismOPIcon = "OP Prism"
+	IonBeamPrismOPDesc = "HAhaHahaha"
+}
